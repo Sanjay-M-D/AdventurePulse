@@ -1,0 +1,27 @@
+{
+  "name": "adventurepulse",
+  "version": "1.0.0",
+  "description": "Adventures Places ",
+  "main": "app.js",
+  "scripts": {
+    "start":"nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanjay-M-D/AdventurePulse.git"
+  },
+  "author": "Sanjay M D",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sanjay-M-D/AdventurePulse/issues"
+  },
+  "homepage": "https://github.com/Sanjay-M-D/AdventurePulse#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "nodemon": "^3.0.2"
+  }
+}
